@@ -1,0 +1,73 @@
+:root { 
+  --banana: #fbe72d;
+  --black: #000000;
+  --blue-haze: #bfbfe3;
+  --delta: #a2a2a2;
+  --gray: #7f7f7f;
+  --white: #ffffff;
+  --white-2: #ffffff99;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 14px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 30px;
+ 
+  --font-family-ibm_plex_mono: "IBM Plex Mono", Helvetica;
+  --font-family-source_sans_pro: "Source Sans Pro", Helvetica;
+}
+.sourcesanspro-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sourcesanspro-bold-delta-14px {
+  color: var(--delta);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sourcesanspro-normal-gray-18px {
+  color: var(--gray);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sourcesanspro-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sourcesanspro-bold-white-18px {
+  color: var(--white-2);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ibmplexmono-semi-bold-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.sourcesanspro-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
